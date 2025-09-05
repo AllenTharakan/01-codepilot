@@ -1,4 +1,37 @@
-html {
-  height: 100%;
-  width: 100%;
+/* Give the header a blue background and white text */
+header {
+  background-color: blue;
+  color: white;
+}
+
+nav {
+  background-color: #222;
+  margin-top: 0;
+}
+
+.navbar {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar li {
+  margin: 0 1.5em;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 1em 0.5em;
+  display: block;
+  transition: color 0.2s, background 0.2s;
+  border-radius: 4px;
+}
+
+.navbar a:hover {
+  background: #0056b3;
+  color: #fff;
 }
